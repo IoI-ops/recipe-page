@@ -1,0 +1,1 @@
+console.log("if you're smart or just bored, you might see this. go back plz")
