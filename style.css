@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(205, 199, 191);
+    color: rgb(179, 36, 36);
+    margin: 10px;
+    max-height: 100vh;
+}
+
+p{
+    color: black;
+}
+
+h2{
+    color: black;
+}
+
+ul{
+    color: black;
+}
+
