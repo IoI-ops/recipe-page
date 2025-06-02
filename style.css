@@ -2,16 +2,25 @@ body{
     background-color: rgb(205, 199, 191);
     color: rgb(179, 36, 36);
     margin: 10px;
-    max-height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Roboto", "Inter";
+    font-size: larger;
 }
 
 p{
     color: black;
+    font-size: 25px;
 }
 
 ul{
     color: black;
     list-style-type: none;
+    padding: 15px;
+    font-size: 1.5em;
 }
 
 
@@ -25,3 +34,25 @@ a:visited{
     text-decoration: none;
 }
 
+
+div{
+    background-color: pink;
+    width: 1280px;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#text{
+    text-align: center;
+}
+
+#ingredients{
+    height: 300px;
+    text-align: left;
+}
